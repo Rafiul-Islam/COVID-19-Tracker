@@ -6,14 +6,38 @@ body{
 }
 .app__header{
   margin-bottom: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-.infoBox{
-  cursor: pointer;
+.infoBox__title{
+  font-size: 1.2rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.infoBox__cardContent_border_cases{
+  border-top: 7px solid crimson;
+}
+.infoBox__cardContent_border_cases_text{
+  color: crimson;
+}
+.infoBox__cardContent_border_recovers{
+  border-top: 7px solid darkslategrey;
+}
+.infoBox__cardContent_border_recovers_text{
+  color: darkslategrey;
+}
+
+.infoBox__cardContent_border_deaths{
+  border-top: 7px solid darkred;
+}
+.infoBox__cardContent_border_deaths_text{
+  color: darkred;
 }
 
 .table-div{
   margin-top: 10px;
   overflow: scroll;
-  height: 330px;
+  height: 380px;
 }

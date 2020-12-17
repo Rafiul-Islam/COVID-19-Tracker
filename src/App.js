@@ -46,14 +46,12 @@ function App() {
             const {data} = await axios(url);
             setCountry(countryCode)
             setCountryInfo(data)
-            setMapCenter([data.countryInfo.lat, data.countryInfo.long])
-            setMapZoom(4)
         }
         getCountryData()
     }
 
     return (
-        <div className='app row m-5'>
+        <div className='app row mt-3 mx-5'>
             <div className="app__left col-md-9">
                 <div className="app__header d-flex flex-wrap justify-content-between align-self-center">
                     <h2>Covid-19 Tracker</h2>
@@ -74,9 +72,9 @@ function App() {
                         </Select>
                     </FormControl>
                 </div>
-                <div className='app__states row justify-content-between align-self-center text-center'>
+                <div className='app__states row justify-content-between align-self-center'>
                     <div className="flex-grow-1 m-sm-2">
-                        <InfoBox title='Coronavirus cases'
+                        <InfoBox title='Cases'
                                  cases={countryInfo.todayCases}
                                  total={countryInfo.cases}/>
                     </div>
