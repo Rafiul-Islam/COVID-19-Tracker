@@ -2,12 +2,15 @@ import {useEffect, useState} from "react";
 import {FormControl, InputLabel, Select, MenuItem, Card, CardContent} from "@material-ui/core";
 import * as axios from "axios";
 import InfoBox from "./InfoBox";
+import Table from "./Table";
 import Map from "./Map";
 import './App.css';
+import LineGraph from "./LineGraph";
 
 function App() {
     const all_counties_api = 'https://disease.sh/v3/covid-19/countries'
     const [countries, setCountries] = useState([])
+    const [tableData, settableData] = useState([])
     const [country, setCountry] = useState('worldwide')
     const [countryInfo, setCountryInfo] = useState({})
 
@@ -24,6 +27,7 @@ function App() {
                 value: country.countryInfo.iso2
             }))
             setCountries(countries)
+            settableData(data)
         }
         getCountriesData()
     }, []);
@@ -72,7 +76,9 @@ function App() {
                 <Card>
                     <CardContent>
                         <h3>Live Cases By Country</h3>
+                        <Table tableData={tableData}/>
                         <h3>Worldwide New Cases</h3>
+                        <LineGraph/>
                     </CardContent>
                 </Card>
             </div>

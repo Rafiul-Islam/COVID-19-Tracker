@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InfoBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map.js" afterDir="false" />
+    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="Live cases on right side added and date desc sorted on cases number on the country">
+      <change afterPath="$PROJECT_DIR$/src/LineGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../AJAX/Stack-Learner" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AJAX/Stack-Learner" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Complete Projects/Portfolio" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Complete Projects/Portfolio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Complete Projects/Task_Board" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Complete Projects/Task_Board" afterDir="false" />
@@ -38,12 +38,8 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hotel-management" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../weather-app" beforeDir="false" />
@@ -96,6 +92,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -130,8 +127,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608141220158</updated>
-      <workItem from="1608141221241" duration="11622000" />
+      <workItem from="1608141221241" duration="12445000" />
+      <workItem from="1608181515532" duration="4671000" />
+      <workItem from="1608188406640" duration="391000" />
     </task>
+    <task id="LOCAL-00001" summary="Data fetch from API on country selection done">
+      <created>1608154150296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608154150296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,23 +154,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="data fatch from API on country selection done" />
+    <MESSAGE value="Data fetch from API on country selection done" />
+    <MESSAGE value="Live cases on right side added and date desc sorted on cases number on the country" />
+    <option name="LAST_COMMIT_MESSAGE" value="Live cases on right side added and date desc sorted on cases number on the country" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1608150673377">
+    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1608186189940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608150673377" />
-    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1608150673377">
+    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608186189940" />
+    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1608186189940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608150673377" />
-    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1608150673377">
+    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608186189940" />
+    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1608186189940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608150673377" />
-    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1608150673377">
+    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608186189940" />
+    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1608186189940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608150673377" />
+    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608186189940" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608154194721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608154194721" />
   </component>
 </project>

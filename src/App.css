@@ -11,3 +11,9 @@ body{
 .infoBox{
   cursor: pointer;
 }
+
+.table-div{
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+}
