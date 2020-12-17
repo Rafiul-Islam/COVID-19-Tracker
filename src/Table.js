@@ -8,7 +8,7 @@ const Table = ({tableData}) => {
                 <tbody>
                 {
                     tableData.map((country, index) =>
-                        <tr>
+                        <tr key={index}>
                             <td>{country.country}</td>
                             <td className='text-right'>{country.cases}</td>
                         </tr>)

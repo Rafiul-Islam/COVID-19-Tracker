@@ -47,7 +47,7 @@ function App() {
         <div className='app row m-5'>
             <div className="app__left col-md-9">
                 <div className="app__header d-flex flex-wrap justify-content-between align-self-center">
-                    <h1>Covid-19 Tracker App</h1>
+                    <h2>Covid-19 Tracker</h2>
                     <FormControl variant="outlined">
                         <Select labelId="countries-dropdown-label" id="countries-dropdown" value={country}
                                 onChange={onCountryChange}>
@@ -65,19 +65,19 @@ function App() {
                         </Select>
                     </FormControl>
                 </div>
-                <div className='app__states d-flex flex-wrap justify-content-between align-self-center'>
-                    <InfoBox title='Coronavirus cases' cases={countryInfo.todayCases} total={countryInfo.cases}/>
-                    <InfoBox title='Recovered' cases={countryInfo.todayRecovered} total={countryInfo.recovered}/>
-                    <InfoBox title='Deaths' cases={countryInfo.todayDeaths} total={countryInfo.deaths}/>
+                <div className='app__states row justify-content-between align-self-center text-center'>
+                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Coronavirus cases' cases={countryInfo.todayCases} total={countryInfo.cases}/></div>
+                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Recovered' cases={countryInfo.todayRecovered} total={countryInfo.recovered}/></div>
+                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Deaths' cases={countryInfo.todayDeaths} total={countryInfo.deaths}/></div>
                 </div>
                 <Map/>
             </div>
             <div className="app_right col-md-3">
                 <Card>
                     <CardContent>
-                        <h3>Live Cases By Country</h3>
+                        <h5>Live Cases By Country</h5>
                         <Table tableData={tableData}/>
-                        <h3>Worldwide New Cases</h3>
+                        <h5 className='mt-3'>Worldwide New Cases</h5>
                         <LineGraph/>
                     </CardContent>
                 </Card>

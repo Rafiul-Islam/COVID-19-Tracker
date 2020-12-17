@@ -13,7 +13,7 @@ body{
 }
 
 .table-div{
-  margin-top: 20px;
+  margin-top: 10px;
   overflow: scroll;
-  height: 400px;
+  height: 330px;
 }
