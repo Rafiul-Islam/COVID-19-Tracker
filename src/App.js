@@ -6,6 +6,7 @@ import Table from "./Table";
 import Map from "./Map";
 import './App.css';
 import LineGraph from "./LineGraph";
+import 'leaflet/dist/leaflet.css'
 
 function App() {
     const all_counties_api = 'https://disease.sh/v3/covid-19/countries'
@@ -13,7 +14,12 @@ function App() {
     const [tableData, settableData] = useState([])
     const [country, setCountry] = useState('worldwide')
     const [countryInfo, setCountryInfo] = useState({})
-
+    const [mapCountries, setMapCountries] = useState([]);
+    const [mapCenter, setMapCenter] = useState({
+        lat: 34.80746,
+        lng: -40.4796
+    })
+    const [mapZoom, setMapZoom] = useState(3)
     useEffect(async () => {
         const {data} = await axios('https://disease.sh/v3/covid-19/all');
         setCountryInfo(data)
@@ -27,6 +33,7 @@ function App() {
                 value: country.countryInfo.iso2
             }))
             setCountries(countries)
+            setMapCountries(data)
             settableData(data)
         }
         getCountriesData()
@@ -39,6 +46,8 @@ function App() {
             const {data} = await axios(url);
             setCountry(countryCode)
             setCountryInfo(data)
+            setMapCenter([data.countryInfo.lat, data.countryInfo.long])
+            setMapZoom(4)
         }
         getCountryData()
     }
@@ -66,11 +75,21 @@ function App() {
                     </FormControl>
                 </div>
                 <div className='app__states row justify-content-between align-self-center text-center'>
-                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Coronavirus cases' cases={countryInfo.todayCases} total={countryInfo.cases}/></div>
-                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Recovered' cases={countryInfo.todayRecovered} total={countryInfo.recovered}/></div>
-                    <div className="flex-grow-1 m-sm-2"><InfoBox title='Deaths' cases={countryInfo.todayDeaths} total={countryInfo.deaths}/></div>
+                    <div className="flex-grow-1 m-sm-2">
+                        <InfoBox title='Coronavirus cases'
+                                 cases={countryInfo.todayCases}
+                                 total={countryInfo.cases}/>
+                    </div>
+                    <div className="flex-grow-1 m-sm-2">
+                        <InfoBox title='Recovered' cases={countryInfo.todayRecovered}
+                                 total={countryInfo.recovered}/>
+                    </div>
+                    <div className="flex-grow-1 m-sm-2">
+                        <InfoBox title='Deaths' cases={countryInfo.todayDeaths}
+                                 total={countryInfo.deaths}/>
+                    </div>
                 </div>
-                <Map/>
+                <Map countries={mapCountries} center={mapCenter} zoom={mapZoom}/>
             </div>
             <div className="app_right col-md-3">
                 <Card>

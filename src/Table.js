@@ -9,6 +9,7 @@ const Table = ({tableData}) => {
                 {
                     tableData.map((country, index) =>
                         <tr key={index}>
+                            <td><img src={country.countryInfo.flag} height='28' width='40'/></td>
                             <td>{country.country}</td>
                             <td className='text-right'>{country.cases}</td>
                         </tr>)
