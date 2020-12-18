@@ -21,7 +21,7 @@ const InfoBox = ({title, total}) => {
         <Card className='infoBox'>
             <CardContent className={cn0}>
                 <span className='infoBox__title'>{title}</span>
-                <h3 className={cn1}>+{total / 1000} k</h3>
+                <h3 className={cn1}>+{total / 1000}k</h3>
             </CardContent>
         </Card>
     );
