@@ -23,7 +23,8 @@ const InfoBox = ({title, total, cases}) => {
                 <span className='infoBox__title'>{title}</span>
                 {cases && <h3 className={cn1}>+{cases}</h3>}
                 {cases < 1 && <h3 className={cn1}>0 Cases</h3>}
-                <h3 className="infoBox__total">{(total / 1000).toFixed(1)}k Total</h3>
+                {total < 1000000 && <h3 className="infoBox__total">{(total / 1000).toFixed(1)}k Total</h3>}
+                {total >= 1000000 && <h3 className="infoBox__total">{(total / 1000000).toFixed(1)}m Total</h3>}
             </CardContent>
         </Card>
     );
