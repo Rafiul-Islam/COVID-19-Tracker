@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="Basic Complete with Demo Map and LineGhrap of cases">
+    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="Today cases added">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfoBox.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <workItem from="1608181515532" duration="4671000" />
       <workItem from="1608188406640" duration="14828000" />
       <workItem from="1608210391330" duration="4031000" />
-      <workItem from="1618593469152" duration="2416000" />
+      <workItem from="1618593469152" duration="2731000" />
     </task>
     <task id="LOCAL-00001" summary="Data fetch from API on country selection done">
       <created>1608154150296</created>
@@ -119,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608213394626</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Today cases added">
+      <created>1618596129221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618596129221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +147,7 @@
     <MESSAGE value="Live cases on right side added and date desc sorted on cases number on the country" />
     <MESSAGE value="LineGraph on right side done" />
     <MESSAGE value="Basic Complete with Demo Map and LineGhrap of cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Complete with Demo Map and LineGhrap of cases" />
+    <MESSAGE value="Today cases added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today cases added" />
   </component>
 </project>
