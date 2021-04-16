@@ -19,54 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="LineGraph on right side done">
-      <change beforePath="$PROJECT_DIR$/../../../AJAX/Stack-Learner" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AJAX/Stack-Learner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Complete Projects/Portfolio" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Complete Projects/Portfolio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Complete Projects/Task_Board" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Complete Projects/Task_Board" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Data Stracture and Algorithm/Data-Structure-And-Algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Data Stracture and Algorithm/Data-Structure-And-Algorithms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JavaScript/Raod Map to js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaScript/Raod Map to js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JavaScript/Stack Learner/DOM/Task_Board" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaScript/Stack Learner/DOM/Task_Board" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Konva.JS/shohel/tech-scratch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Konva.JS/shohel/tech-scratch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Python/raf for pracice/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Python/raf for pracice/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Dev Ed/first-app" beforeDir="false" afterPath="$PROJECT_DIR$/../../Dev Ed/first-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Firebase/contact-manager" beforeDir="false" afterPath="$PROJECT_DIR$/../../Firebase/contact-manager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Firebase/firgram/src/firebase/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Firebase/firgram/src/firebase/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mosh-Mastering React/Shopping Cart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mosh-Mastering React/Shopping Cart" afterDir="false" />
+    <list default="true" id="90acd027-b808-4854-a069-9bfe0b459f6f" name="Default Changelist" comment="Basic Complete with Demo Map and LineGhrap of cases">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfoBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Food-Searching-App" beforeDir="false" afterPath="$PROJECT_DIR$/../Food-Searching-App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hotel-management" beforeDir="false" afterPath="$PROJECT_DIR$/../hotel-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather-app" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/.idea/wold_fire_tracker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wold_fire_tracker/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../git/branch-practice" beforeDir="false" afterPath="$PROJECT_DIR$/../../../git/branch-practice" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -130,7 +88,8 @@
       <workItem from="1608141221241" duration="12445000" />
       <workItem from="1608181515532" duration="4671000" />
       <workItem from="1608188406640" duration="14828000" />
-      <workItem from="1608210391330" duration="2896000" />
+      <workItem from="1608210391330" duration="4031000" />
+      <workItem from="1618593469152" duration="2416000" />
     </task>
     <task id="LOCAL-00001" summary="Data fetch from API on country selection done">
       <created>1608154150296</created>
@@ -153,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608196585654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Basic Complete with Demo Map and LineGhrap of cases">
+      <created>1608213394626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608213394626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,28 +142,7 @@
     <MESSAGE value="Data fetch from API on country selection done" />
     <MESSAGE value="Live cases on right side added and date desc sorted on cases number on the country" />
     <MESSAGE value="LineGraph on right side done" />
-    <option name="LAST_COMMIT_MESSAGE" value="LineGraph on right side done" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom" timestamp="1608213104538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608213104538" />
-    <state width="1345" height="135" key="GridCell.Tab.0.center" timestamp="1608213104538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608213104538" />
-    <state width="1345" height="135" key="GridCell.Tab.0.left" timestamp="1608213104538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608213104538" />
-    <state width="1345" height="135" key="GridCell.Tab.0.right" timestamp="1608213104538">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608213104538" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608196589862">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608196589862" />
+    <MESSAGE value="Basic Complete with Demo Map and LineGhrap of cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Complete with Demo Map and LineGhrap of cases" />
   </component>
 </project>
